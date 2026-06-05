@@ -1,4 +1,15 @@
-# MyAISelect - Custom Lightweight AI Screen Select (Desktop Edition)
+# MyAISelect
+
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**Lightweight, fast, customizable AI screen selector for any Windows desktop.**
+
+No Samsung hardware required. Much lighter and snappier than the official Smart Select.
+
+[GitHub](https://github.com/ahagoitda/ai-select) | Personal project for fast capture + AI cutout + OCR + Google Lens search.
+
+## MyAISelect - Custom Lightweight AI Screen Select (Desktop Edition)
 
 Samsung Smart Select (AISelect) became too heavy and slow on my machines (especially non-Galaxy-Book desktops). This is a **personal, lightweight replacement** that focuses on speed + the features I actually use:
 
@@ -24,15 +35,15 @@ Works great on any modern Windows 10/11 desktop or laptop.
 2. Open PowerShell / Terminal in this folder and run:
 
 ```powershell
-cd C:\Users\ahago\MyAISelect
+cd path\to\MyAISelect
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
 3. (Recommended for best experience) Install PowerToys from Microsoft Store / GitHub.
-   - Use Keyboard Manager to bind a hotkey (e.g. `Ctrl + Shift + A`) to run:
-     `C:\Users\ahago\MyAISelect\.venv\Scripts\python.exe C:\Users\ahago\MyAISelect\ai_select.py --capture`
+   - Use Keyboard Manager to bind a hotkey (e.g. `Ctrl + Shift + A`) to run the script with `--capture` flag, e.g.:
+     `path\to\.venv\Scripts\python.exe path\to\ai_select.py --capture`
 
    Or just run the script once — it registers an internal hotkey (Ctrl+Shift+A). May require running as admin for global hotkeys in some cases.
 
