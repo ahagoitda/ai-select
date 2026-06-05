@@ -1,0 +1,11 @@
+Pillow>=10.0
+mss>=9.0
+pyperclip>=1.8
+keyboard>=0.13
+pystray>=0.19
+tkinter  # usually built-in, listed for clarity
+
+# Optional but highly recommended for real AI features:
+# rembg>=2.0          # excellent AI cutout / background removal (CPU)
+# pytesseract>=0.3    # OCR - requires separate tesseract-ocr install + Korean language data
+# easyocr>=1.7        # alternative pure-Python OCR with Korean support (heavier, auto-downloads model first time)
